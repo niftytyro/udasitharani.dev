@@ -6,7 +6,11 @@ const Introduction = () => {
   return (
     <div style={{ width: "100%", height: "100%" }}>
       <div className={styles.backgroundImageContainer}>
-        <img className={styles.backgroundImage} src={backgroundImage} alt="" />
+        <img
+          className={styles.backgroundImage}
+          src={backgroundImage}
+          alt="Software Developer Workspace"
+        />
       </div>
       <div className={styles.shortIntroContainer}>
         <div className={styles.shortIntro}>

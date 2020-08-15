@@ -18,19 +18,41 @@ const AboutMe = () => {
         create and code beautiful user interfaces with top-notch tech stacks.
       </div>
       <div className={styles.aboutLinks}>
-        <SocialLink imgSrc={GmailSVG} to="mailto: me@udasitharani.dev" />
+        <SocialLink
+          imgSrc={GmailSVG}
+          to="mailto: me@udasitharani.dev"
+          platformName="Gmail"
+        />
         <SocialLink
           to="https://www.instagram.com/udasi.tharani/"
           imgSrc={InstagramSVG}
+          platformName="Instagram"
         />
         <SocialLink
           to="https://www.linkedin.com/in/udasi-tharani-bb3232193/"
           imgSrc={LinkedInSVG}
+          platformName="LinkedIn"
         />
-        <SocialLink to="https://t.me/udasitharani" imgSrc={TelegramSVG} />
-        <SocialLink to="https://medium.com/@udasitharani" imgSrc={MediumSVG} />
-        <SocialLink to="https://github.com/udasitharani" imgSrc={GithubSVG} />
-        <SocialLink to="https://twitter.com/TharaniUdasi" imgSrc={TwitterSVG} />
+        <SocialLink
+          to="https://t.me/udasitharani"
+          imgSrc={TelegramSVG}
+          platformName="Telegram"
+        />
+        <SocialLink
+          to="https://medium.com/@udasitharani"
+          imgSrc={MediumSVG}
+          platformName="Medium"
+        />
+        <SocialLink
+          to="https://github.com/udasitharani"
+          imgSrc={GithubSVG}
+          platformName="Github"
+        />
+        <SocialLink
+          to="https://twitter.com/TharaniUdasi"
+          imgSrc={TwitterSVG}
+          platformName="Twitter"
+        />
       </div>
     </div>
   );

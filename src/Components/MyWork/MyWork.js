@@ -13,12 +13,7 @@ const MyWork = () => {
           projectIMG={Covid19TrackerIMG}
           projectURL="https://udasitharani.github.io/Covid-19-Tracker"
           projectDescription="A Covid-19-Tracker made with Reactjs."
-        />
-        <ProjectTile
-          projectID="covid-19-tracker"
-          projectIMG={Covid19TrackerIMG}
-          projectURL="https://udasitharani.github.io/Covid-19-Tracker"
-          projectDescription="A Covid-19-Tracker made with Reactjs."
+          projectTitle="Covid-19 Tracker"
         />
       </div>
     </div>
