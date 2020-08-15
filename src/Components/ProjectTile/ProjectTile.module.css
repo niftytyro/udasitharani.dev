@@ -1,0 +1,31 @@
+.projectTile {
+  flex: 0 45%;
+  margin: 20px;
+  position: relative;
+}
+.projectTile img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.projectDetails {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: none;
+}
+.projectTile:hover img {
+  filter: blur(4px);
+}
+.projectTile:hover .projectDetails {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #aaaaaa66;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

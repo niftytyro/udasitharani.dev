@@ -1,0 +1,19 @@
+.myWork {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 5rem;
+}
+
+.myWork .myWorkHeader {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
