@@ -1,12 +1,17 @@
 * {
   box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 
 html,
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  color: #202020;
 }
 .background-image-container {
   overflow: hidden;
@@ -17,4 +22,43 @@ body {
   object-fit: cover;
   margin: 0;
   padding: 0;
+}
+
+.short-intro-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  width: 100vw;
+  height: 100vh;
+}
+
+.short-intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  width: 40%;
+}
+
+.short-intro .short-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.short-intro .short-description {
+  /* font-weight: 00; */
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .short-intro {
+    width: 100%;
+  }
+  .short-intro .short-description {
+    width: 100%;
+    padding: 0 10px;
+  }
 }
