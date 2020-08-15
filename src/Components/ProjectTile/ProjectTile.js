@@ -11,13 +11,11 @@ function ProjectTile({
   return (
     <div id={projectID} className={styles.projectTile}>
       <a href={projectURL}>
-        <div className={styles.projectImage}>
-          <img src={projectIMG} alt={projectTitle} />
-        </div>
-        <div className={styles.projectDetails}>
-          <p>{projectDescription}</p>
-        </div>
+        <img src={projectIMG} alt={projectTitle} />
       </a>
+      <div className={styles.projectDetails}>
+        <p>{projectDescription}</p>
+      </div>
     </div>
   );
 }
