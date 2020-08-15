@@ -33,6 +33,9 @@ jobs:
         run: |
           npm install
           npm run build
+          cd ./build
+          echo "udasitharani.dev" >> CNAME
+          cd ..
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
