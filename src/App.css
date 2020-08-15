@@ -3,3 +3,10 @@
   width: 100%;
   height: 100%;
 }
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: #202020;
+}

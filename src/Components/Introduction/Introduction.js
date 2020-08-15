@@ -1,4 +1,5 @@
 import React from "react";
+import ContactButton from "../ContactButton/ContactButton";
 import backgroundImage from "../../static/background.jpeg";
 import styles from "./Introduction.module.css";
 
@@ -21,6 +22,7 @@ const Introduction = () => {
           </div>
         </div>
       </div>
+      <ContactButton />
     </div>
   );
 };

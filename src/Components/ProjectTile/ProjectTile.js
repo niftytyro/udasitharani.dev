@@ -10,14 +10,14 @@ function ProjectTile({
 }) {
   return (
     <div id={projectID} className={styles.projectTile}>
-      <div className={styles.projectImage}>
-        <a href={projectURL}>
+      <a href={projectURL}>
+        <div className={styles.projectImage}>
           <img src={projectIMG} alt={projectTitle} />
-        </a>
-      </div>
-      <div className={styles.projectDetails}>
-        <p>{projectDescription}</p>
-      </div>
+        </div>
+        <div className={styles.projectDetails}>
+          <p>{projectDescription}</p>
+        </div>
+      </a>
     </div>
   );
 }

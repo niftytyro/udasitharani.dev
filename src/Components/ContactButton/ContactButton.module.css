@@ -1,0 +1,11 @@
+.button {
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.button:hover {
+  cursor: pointer;
+}
