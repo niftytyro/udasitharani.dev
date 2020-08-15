@@ -30,4 +30,20 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .aboutMe {
+    padding: 15px;
+  }
+  .aboutMe .aboutHeader {
+    font-size: 1rem;
+  }
+  .aboutMe .aboutText {
+    font-size: 2rem;
+  }
+  .aboutMe .aboutLinks {
+    justify-content: flex-start;
+  }
 }
