@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import AppReferenceContext from "../../context/AppReferenceContext";
 import ContactButton from "../ContactButton/ContactButton";
-import backgroundImage from "../../static/background.jpeg";
+// import backgroundImage from "../../static/background.jpeg";
 import styles from "./Introduction.module.css";
 import { motion } from "framer-motion";
 
@@ -18,7 +18,7 @@ const Introduction = () => {
       <div className={styles.backgroundImageContainer}>
         <img
           className={styles.backgroundImage}
-          src={backgroundImage}
+          src="https://unsplash.com/photos/VieM9BdZKFo/download?force=true&w=2400"
           alt="Software Developer Workspace"
         />
       </div>
