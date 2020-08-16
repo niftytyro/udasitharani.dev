@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppReferenceContext from "../../context/AppReferenceContext";
 import Covid19TrackerIMG from "../../static/project screenshots/Covid-19 Tracker.png";
 import ProjectTile from "../ProjectTile/ProjectTile";
 import styles from "./MyWork.module.css";
 
 const MyWork = () => {
+  const { MyWorkRef } = useContext(AppReferenceContext);
+
   return (
-    <div className={styles.myWork}>
+    <div className={styles.myWork} ref={MyWorkRef}>
       <div className={styles.myWorkHeader}>My Work</div>
       <div className={styles.projects}>
         <ProjectTile

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppReferenceContext from "../../context/AppReferenceContext";
+import ContactButton from "../ContactButton/ContactButton";
 import styles from "./AboutMe.module.css";
 import SocialLink from "../SocialLink/SocialLink";
 import GithubSVG from "../../static/github.svg";
@@ -10,8 +12,15 @@ import TelegramSVG from "../../static/telegram.svg";
 import TwitterSVG from "../../static/twitter.svg";
 
 const AboutMe = () => {
+  const { AboutMeRef, MyWorkRef } = useContext(AppReferenceContext);
+
+  const scrollToWork = (event) => {
+    console.log(MyWorkRef.current.offsetTop);
+    window.scrollTo(0, MyWorkRef.current.offsetTop);
+  };
+
   return (
-    <div className={styles.aboutMe}>
+    <div className={styles.aboutMe} ref={AboutMeRef}>
       <div className={styles.aboutHeader}>A little bit about Myself</div>
       <div className={styles.aboutText}>
         I'm a freelancer and a self-taught software developer based in India. I
@@ -54,6 +63,7 @@ const AboutMe = () => {
           platformName="Twitter"
         />
       </div>
+      <ContactButton text="My Work" handleClick={scrollToWork} />
     </div>
   );
 };

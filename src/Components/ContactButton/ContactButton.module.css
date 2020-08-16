@@ -1,11 +1,31 @@
 .button {
-  height: 30px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: absolute;
+  overflow: hidden;
   top: 90%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.1s;
 }
 .button:hover {
   cursor: pointer;
+  opacity: 0.8;
+  transform: translateX(-50%) translateY(-50%) scale(1.1);
+  transition: all 0.1s;
+}
+
+.button img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.text {
+  width: max-content;
+  font-weight: 600;
 }

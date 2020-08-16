@@ -7,6 +7,7 @@
   align-items: flex-start;
   flex-direction: column;
   padding: 15rem;
+  position: relative;
 }
 
 .aboutMe .aboutHeader {
