@@ -3,6 +3,7 @@ import AppReferenceContext from "../../context/AppReferenceContext";
 import ContactButton from "../ContactButton/ContactButton";
 import backgroundImage from "../../static/background.jpeg";
 import styles from "./Introduction.module.css";
+import { motion } from "framer-motion";
 
 const Introduction = () => {
   const { AboutMeRef } = useContext(AppReferenceContext);
@@ -23,11 +24,21 @@ const Introduction = () => {
       </div>
       <div className={styles.shortIntroContainer}>
         <div className={styles.shortIntro}>
-          <div className={styles.shortTitle}>I'm Udasi Tharani.</div>
-          <div className={styles.shortDescription}>
+          <motion.div
+            animate={{ translateY: "-20px", opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className={styles.shortTitle}
+          >
+            I'm Udasi Tharani.
+          </motion.div>
+          <motion.div
+            animate={{ translateY: "-20px", opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
+            className={styles.shortDescription}
+          >
             A freelance software developer working on great web apps with
             startups, companies, and teams across the globe.
-          </div>
+          </motion.div>
         </div>
         <ContactButton text="Let's Talk" handleClick={scrollToAbout} />
       </div>
