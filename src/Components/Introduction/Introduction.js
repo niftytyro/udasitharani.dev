@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import AppReferenceContext from "../../context/AppReferenceContext";
 import ContactButton from "../ContactButton/ContactButton";
-// import backgroundImage from "../../static/background.jpeg";
+import profile from "../../static/profile/me.png";
 import styles from "./Introduction.module.css";
 import { motion } from "framer-motion";
 
@@ -9,7 +9,6 @@ const Introduction = () => {
   const { AboutMeRef } = useContext(AppReferenceContext);
 
   const scrollToAbout = (event) => {
-    console.log(AboutMeRef.current.offsetTop);
     window.scrollTo(0, AboutMeRef.current.offsetTop);
   };
 
@@ -24,6 +23,9 @@ const Introduction = () => {
       </div>
       <div className={styles.shortIntroContainer}>
         <div className={styles.shortIntro}>
+          <div className={styles.profileAvatar}>
+            <img src={profile} alt="" />
+          </div>
           <motion.div
             animate={{ translateY: "-20px", opacity: 1 }}
             transition={{ duration: 0.5 }}
