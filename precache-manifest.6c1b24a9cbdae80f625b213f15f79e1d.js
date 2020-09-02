@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81d8a1aca9fd6f38a1a96e19f2b86389",
+    "revision": "1420059e1e183d9b4f91c7e5052dac11",
     "url": "/index.html"
   },
   {
-    "revision": "7a0bdffb8a29a5f362e3",
-    "url": "/static/css/main.d6e57d27.chunk.css"
+    "revision": "cd4fef77d71ad0241574",
+    "url": "/static/css/main.94a626e1.chunk.css"
   },
   {
-    "revision": "9e90d66a4013129c2f05",
-    "url": "/static/js/2.a4e61b6f.chunk.js"
+    "revision": "645c3ea6e1fbe62175dc",
+    "url": "/static/js/2.bc918024.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/static/js/2.a4e61b6f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.bc918024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a0bdffb8a29a5f362e3",
-    "url": "/static/js/main.50128d1e.chunk.js"
+    "revision": "cd4fef77d71ad0241574",
+    "url": "/static/js/main.db2533ad.chunk.js"
   },
   {
     "revision": "5d998b09cb74b57ee35e",
     "url": "/static/js/runtime-main.338fd0d2.js"
   },
   {
+    "revision": "6cfac1add0b9f34cce39c7cf1817bcaa",
+    "url": "/static/media/BakBak ChatApp.6cfac1ad.jpg"
+  },
+  {
     "revision": "bda9dfa42f7a6e50c520ffc82963c1f8",
     "url": "/static/media/Covid-19 Tracker.bda9dfa4.png"
+  },
+  {
+    "revision": "60def53999edee1558f4448c803f951a",
+    "url": "/static/media/Movie Booking App.60def539.jpg"
   },
   {
     "revision": "ba46c001740693f92b7f5558cfc1286b",
