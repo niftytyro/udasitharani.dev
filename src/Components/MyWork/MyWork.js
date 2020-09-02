@@ -23,14 +23,13 @@ const MyWork = () => {
         <ProjectTile
           projectID="bakbak-chatapp"
           projectIMG={BakBakChatAppIMG}
-          projectURL=""
           projectDescription="Made with Flutter and Firebase."
           projectTitle="Chat App"
         />
         <ProjectTile
           projectID="movie-booking-app"
           projectIMG={MovieBookingAppIMG}
-          projectURL="../../static/project screenshots/movie_2.0_demo_mockup.mp4"
+          projectURL="https://drive.google.com/file/d/1Y62ZY-GWhTRZbGfq6L3-GAveaXwjd4m3/view?usp=sharing"
           projectDescription="Made with Flutter and ❤️. Designed by Dimest C."
           projectTitle="Movie Booking App"
         />
