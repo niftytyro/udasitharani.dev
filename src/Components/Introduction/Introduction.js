@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import AppReferenceContext from "../../context/AppReferenceContext";
 import ContactButton from "../ContactButton/ContactButton";
-import profile from "../../static/profile/me.png";
+import profile from "../../static/profile/me.jpeg";
 import styles from "./Introduction.module.css";
 import { motion } from "framer-motion";
 
