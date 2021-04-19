@@ -23,7 +23,7 @@ const MyWork = () => {
 				/>
 				<ProjectTile
 					projectID="cloud-based-code-editor"
-					projectIMG={Covid19TrackerIMG}
+					projectIMG={CodeEditor}
 					projectURL="https://udasitharani.github.io/cloud-based-code-editor"
 					projectDescription="Made with HTML, CSS & vanilla JS."
 					projectTitle="Python Code Editor"
