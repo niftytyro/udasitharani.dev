@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.94a626e1.chunk.css",
-    "main.js": "/static/js/main.49a55fdd.chunk.js",
-    "main.js.map": "/static/js/main.49a55fdd.chunk.js.map",
+    "main.js": "/static/js/main.833cca35.chunk.js",
+    "main.js.map": "/static/js/main.833cca35.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.338fd0d2.js",
     "runtime-main.js.map": "/static/js/runtime-main.338fd0d2.js.map",
-    "static/js/2.bc918024.chunk.js": "/static/js/2.bc918024.chunk.js",
-    "static/js/2.bc918024.chunk.js.map": "/static/js/2.bc918024.chunk.js.map",
+    "static/js/2.5de0f821.chunk.js": "/static/js/2.5de0f821.chunk.js",
+    "static/js/2.5de0f821.chunk.js.map": "/static/js/2.5de0f821.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.05144165af60e4974da80e54dac16eab.js": "/precache-manifest.05144165af60e4974da80e54dac16eab.js",
+    "precache-manifest.8b4ded3665d005ab08cc3475b01a65c1.js": "/precache-manifest.8b4ded3665d005ab08cc3475b01a65c1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.94a626e1.chunk.css.map": "/static/css/main.94a626e1.chunk.css.map",
-    "static/js/2.bc918024.chunk.js.LICENSE.txt": "/static/js/2.bc918024.chunk.js.LICENSE.txt",
+    "static/js/2.5de0f821.chunk.js.LICENSE.txt": "/static/js/2.5de0f821.chunk.js.LICENSE.txt",
     "static/media/BakBak ChatApp.jpg": "/static/media/BakBak ChatApp.6cfac1ad.jpg",
+    "static/media/Code Editor.png": "/static/media/Code Editor.917510a2.png",
     "static/media/Covid-19 Tracker.png": "/static/media/Covid-19 Tracker.bda9dfa4.png",
     "static/media/Movie Booking App.jpg": "/static/media/Movie Booking App.60def539.jpg",
     "static/media/down-arrow.svg": "/static/media/down-arrow.ba46c001.svg",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.338fd0d2.js",
-    "static/js/2.bc918024.chunk.js",
+    "static/js/2.5de0f821.chunk.js",
     "static/css/main.94a626e1.chunk.css",
-    "static/js/main.49a55fdd.chunk.js"
+    "static/js/main.833cca35.chunk.js"
   ]
 }

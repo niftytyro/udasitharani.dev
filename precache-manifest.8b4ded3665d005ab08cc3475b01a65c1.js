@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08b9981c17c314f17b1622f79d4fd4e4",
+    "revision": "6c21cc918172981a79362c764a98e500",
     "url": "/index.html"
   },
   {
-    "revision": "baac0f07c73da3205c88",
+    "revision": "060d59001b6fb669148c",
     "url": "/static/css/main.94a626e1.chunk.css"
   },
   {
-    "revision": "645c3ea6e1fbe62175dc",
-    "url": "/static/js/2.bc918024.chunk.js"
+    "revision": "1d3ce4ef55b2fe44cf2f",
+    "url": "/static/js/2.5de0f821.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/static/js/2.bc918024.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5de0f821.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "baac0f07c73da3205c88",
-    "url": "/static/js/main.49a55fdd.chunk.js"
+    "revision": "060d59001b6fb669148c",
+    "url": "/static/js/main.833cca35.chunk.js"
   },
   {
     "revision": "5d998b09cb74b57ee35e",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6cfac1add0b9f34cce39c7cf1817bcaa",
     "url": "/static/media/BakBak ChatApp.6cfac1ad.jpg"
+  },
+  {
+    "revision": "917510a252368fa8da0f66b8a2839819",
+    "url": "/static/media/Code Editor.917510a2.png"
   },
   {
     "revision": "bda9dfa42f7a6e50c520ffc82963c1f8",
